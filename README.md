@@ -6,8 +6,11 @@
 
 -   **Command to install Laravel.** composer create-project laravel/laravel project_1
 -   Laravel completes the installation process and automatically creates 3 tables: `users`, `cache`, `jobs`.
+  
     ![alt text](image-1.png)
+    
 -   Successfully installed Laravel 11.25.0.
+  
     ![alt text](image-2.png)
 
 ### 2. Design the STUDENTS Table
@@ -37,7 +40,9 @@
 
 -   Create a migration for the Students table.
 -   Edit the migration: add necessary fields.
+  
     ![alt text](image-6.png)
+    
 -   Run `php artisan migrate` to create the students table in the database.
 
 ### 5. Create and Configure Model
@@ -45,6 +50,7 @@
 ![alt text](image-8.png)
 
 -   **Command to create Model.**
+  
     ![alt text](image-7.png)
 
 ### 6. Create and Configure Controller
@@ -52,14 +58,22 @@
 ![alt text](image-9.png)
 
 -   **Command to create StudentController.**
+  
     ![alt text](image-10.png)
+    
 -   **Add Student** (Create).
+  
     ![alt text](image-11.png)
+    
 -   **Edit Student Information** (Update).
 -   **Delete Student Information** (Destroy).
+  
     ![alt text](image-12.png)
+    
 -   Modify
+  
     ![alt text](image-13.png)
+    
     `AuthenticatedSessionController` so that after login, users will be redirected to the student list page.
 
 ### 7. Add Router
@@ -77,18 +91,32 @@
 
 ### 9. Results
 
--   Run `php artisan serve` to display the following results: - First, go to the welcome page allowing user login/registration. - **Registration Form:**
+-   Run `php artisan serve` to display the following results: - First, go to the welcome page allowing user login/registration.
+- **Registration Form:**
+  
     ![alt text](image-16.png)
+  
 -   Data validation result: Password must be at least 8 characters to register an account. - **Login and Register Form:**
+  
     ![alt text](image-17.png)
     ![alt text](image-18.png)
     ![alt text](image-19.png)
--   After logging in, display the Student List page along with the user information, allowing for adding, editing, and deleting students. Users can also log out and return to the welcome page if needed. - **Add Student Page:**
+    
+-   After logging in, display the Student List page along with the user information, allowing for adding, editing, and deleting students. Users can also log out and return to the welcome page if needed.
+- **Add Student Page:**
+
     ![alt text](image-20.png)
-    Allows adding new students. - **Edit Student Information Page:**
+  
+    Allows adding new students.
+- **Edit Student Information Page:**
+    
     ![alt text](image-21.png)
-    Allows editing information, updating, and returning to the student list page. - Result: Added Trương Thị Lỏ to the list and edited Trường to Lê in the student list. - **Database**
+    
+    Allows editing information, updating, and returning to the student list page. - Result: Added Trương Thị Lỏ to the list and edited Trường to Lê in the student list.
+- **Database**
+    
     ![alt text](image.png)
+
     After adding the new student is also displayed in the `students` table.
 
 _Note:_ Lê Thị Thúng and Nguyễn Thị Mẹt were created in phpMyAdmin, so their passwords are not encrypted, while Lê Thị Lỏ was created through the add student function, so her password is encrypted.
