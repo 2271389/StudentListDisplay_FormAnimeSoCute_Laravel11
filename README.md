@@ -34,7 +34,9 @@
 ![alt text](image-3.png)
 
 -   Create a database name in phpMyAdmin.
+  
     ![alt text](image-4.png)
+    
 -   Configure the database in the `.env` file within the project directory.
 
 ### 4. Create Migrations
