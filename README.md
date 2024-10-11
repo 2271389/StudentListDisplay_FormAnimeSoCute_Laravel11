@@ -50,17 +50,20 @@
     
 -   Run `php artisan migrate` to create the students table in the database.
 
+  ![alt text](image-8.png)
+
 ### 5. Create and Configure Model
 
-![alt text](image-8.png)
+ ![alt text](image-7.png)
 
 -   **Command to create Model.**
   
-    ![alt text](image-7.png)
+   ![alt text](image-9.png)
 
 ### 6. Create and Configure Controller
 
-![alt text](image-9.png)
+![image](https://github.com/user-attachments/assets/6d6a00c6-bd88-42f0-9d38-7a22f7b16fc8)
+
 
 -   **Command to create StudentController.**
   
